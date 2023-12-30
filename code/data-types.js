@@ -36,3 +36,8 @@ console.log(typeof obj)
 const copied_obj = obj
 copied_obj.name = 5;
 console.log(obj) // value is change in both since it copied the reference
+
+const copied_arr = arr;
+copied_arr.push("just pushed")
+
+console.log(arr)
