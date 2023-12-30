@@ -1,6 +1,8 @@
 // we have 2 types on a high level
 // primitive and referential
 
+//primitive
+
 const num = 12
 const str = "nothing here"
 const temp = undefined
@@ -18,3 +20,19 @@ console.log(typeof boo)
 console.log(typeof bigint)
 console.log(typeof nu_ll)  // this prints as object
 console.log(typeof sym)
+
+
+// non primitive or referential (ususally store more than one value)
+
+const arr = ['jo', 2019, null]
+
+const obj = {
+    name : "value"
+}
+
+console.log(typeof arr) // all non prim are object types
+console.log(typeof obj)
+
+const copied_obj = obj
+copied_obj.name = 5;
+console.log(obj) // value is change in both since it copied the reference
