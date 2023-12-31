@@ -9,3 +9,5 @@ function solve(...args) {
 
 solve(1, "2", null)
 
+
+// spread operator is used to spread elements of an array and object literals
